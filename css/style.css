@@ -130,3 +130,79 @@
     background-position: right;
     background-position-x: 129px;
 }
+.wrapper_left_padding {
+    padding-left: 182px;
+}
+.popular_dest {
+    display: flex;
+    flex-direction: column;
+
+}
+.dest_title {
+    color: #172432;
+    font-family: Playfair Display;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.dest_hr {
+    width: 365px;
+    height: 3px;
+    background-color: #FF7757;
+    margin-bottom: 32px;
+    display: flex;
+    border: none;
+}
+.dest_subtitle {
+    color: #767E86;
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 100px;
+}
+.dest_list {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+.list_title {
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.list_subtitle {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.list_bg {
+    padding: 40px 24px;
+    display: flex;
+    width: 497px;
+    height: 661px;
+    box-sizing: border-box;
+    border-radius: 26px;
+    background-repeat: no-repeat;
+}
+.berlin {
+    background-image: url(../img/Berlin.png);
+}
+.london {
+    background-image: url(../img/London.png);
+}
+.venice {
+    background-image: url(../img/Venice.png);
+}
+.lisbon {
+    background-image: url(../img/Lisbon.png);
+}
