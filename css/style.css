@@ -176,6 +176,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin-bottom: 17px;
 }
 .list_subtitle {
     color: #FFF;
@@ -184,6 +185,10 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    background-image: url(../img/location.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 40px;
 }
 .list_bg {
     padding: 40px 24px;
@@ -193,6 +198,9 @@
     box-sizing: border-box;
     border-radius: 26px;
     background-repeat: no-repeat;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
 }
 .berlin {
     background-image: url(../img/Berlin.png);
