@@ -479,13 +479,13 @@
 .planner_right {
     display: flex;
     gap: 32px;
+    margin-bottom: 355px;
 }
 .planner_img {
     min-width: 300px;
     border-radius: 26px;
     height: 399px;
     background-repeat: no-repeat;
-    
 }
 .planner_rome {
     background-image: url(../img/rome_planner.png);
@@ -498,4 +498,59 @@
 }
 .planner_budapest {
     background-image: url(../img/budapest_planner.png);
+}
+.gallery {
+    display: flex;
+    flex-direction: column;
+}
+.gallery_title {
+    color: #172432;
+    font-family: Playfair Display;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.gallery_hr {
+    display: flex;
+    width: 283px;
+    height: 3px;
+    background-color: #FF7757;
+    border: none;
+    margin-bottom: 32px;
+}
+.gallery_subtitle {
+    color: #767E86;
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 137.5px;
+}
+.gallery_list {
+    gap: 32px;
+    display: flex;
+    flex-direction: row;
+}
+.gallery_list_img {
+    display: flex;
+    height: 570px;
+    width: 365px;
+    border-radius: 26px;
+}
+.gallery_first {
+    background-image: url(../img/gallery1.png);
+}
+.gallery_second {
+    background-image: url(../img/gallery2.png);
+    position: relative;
+    bottom: 37.5px;
+}
+.gallery_third {
+    background-image: url(../img/gallery3.png);
+}
+.gallery_fourth {
+    background-image: url(../img/gallery4.png);
 }
