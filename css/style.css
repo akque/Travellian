@@ -33,6 +33,18 @@
     font-weight: 400;
     line-height: normal;
 }
+.nav_login {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.nav_link:hover {
+    font-weight: 600;
+    transition: 0.1s;
+}
 .nav_sign {
     display: block;
     color: #FFF;
@@ -136,7 +148,6 @@
 .popular_dest {
     display: flex;
     flex-direction: column;
-
 }
 .dest_title {
     color: #172432;
@@ -479,7 +490,6 @@
 .planner_right {
     display: flex;
     gap: 32px;
-    margin-bottom: 355px;
 }
 .planner_img {
     min-width: 300px;
@@ -533,6 +543,7 @@
     gap: 32px;
     display: flex;
     flex-direction: row;
+    margin-bottom: 319.5px;
 }
 .gallery_list_img {
     display: flex;
@@ -553,4 +564,243 @@
 }
 .gallery_fourth {
     background-image: url(../img/gallery4.png);
+}
+.experience {
+    display: flex;
+    flex-direction: column;
+}
+.experience_title {
+    color: #172432;
+    font-family: Playfair Display;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.experience_hr {
+    width: 347px;
+    height: 3px;
+    background-color: #FF7757;
+    border: none;
+    display: flex;
+    margin-bottom: 32px;
+}
+.experience_subtitle {
+    color: #767E86;
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 160px;
+}
+.experience_list {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin-bottom: 455px;
+}
+.experience_list_card {
+    display: flex;
+    background-color: #F5F6F7;
+    border-radius: 12px;
+    padding: 60px 40px 40px 40px;
+    width: 663px;
+    position: relative;
+    flex-direction: column;
+    gap: 20px;
+}
+.experience_list_card_avatar {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -65px;
+}
+.experience_list_card_title {
+    color: #767E86;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    width: 583px;
+}
+.experience_list_card_rating {
+    background-image: url(../img/rating.png);
+    width: 136px;
+    height: 24px;
+}
+.experience_list_card_name {
+    color: #767E86;
+    font-family: Playfair Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.experience_list_card_who {
+    color: #767E86;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.avatar_first {
+    background-image: url(../img/avatar1.png);
+}
+.avatar_second {
+    background-image: url(../img/avatar2.png);
+}
+.avatar_third {
+    background-image: url(../img/avatar3.png);
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
+    padding: 240px 182px 140px 182px;
+    background-color: #172432;
+    position: relative;
+}
+.footer_logo_cont {
+    display: flex;
+    flex-direction: column;
+}
+.footer_logo {
+    display: flex;
+    width: 234px;
+    height: 46px;
+    background-image: url(../img/logo_white.png);
+    margin-bottom: 16px;
+}
+.footer_copyright {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.footer_title {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+.footer_link {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 12px;
+}
+.footer_cont {
+    display: flex;
+    flex-direction: column;
+}
+.footer_socials {
+    gap: 24px;
+    display: flex;
+    flex-direction: row;
+}
+.footer_cont_social {
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+}
+.facebook {
+    background-image: url(../img/facebook.png);
+}
+.pinterest {
+    background-image: url(../img/pinterest.png);
+    transform: scale(1.25);
+}
+.instagram {
+    background-image: url(../img/instagram.png);
+}
+.twitter {
+    background-image: url(../img/twitter.png);
+}
+.footer_newsletter {
+    display: flex;
+    position: absolute;
+    width: 1262px;
+    height: 232px;
+    background-color: #FFF;
+    top: -109px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 26px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.30);
+    padding: 60px 80px;
+    gap: 100px;
+}
+.footer_newsletter_title {
+    color: #767E86;
+    font-family: Playfair Display;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.footer_newsletter_label {
+    color: #767E86;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.footer_newsletter_input {
+    border-radius: 12px;
+    background-color: #FFE8D4;
+    color: #FF7757;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    padding: 24px 40px;
+    border: none;
+    width: 372px;
+}
+.footer_newsletter_input::placeholder {
+    color: #FF7757;
+}
+.footer_newsletter_btn {
+    border-radius: 12px;
+    background: #FF7757;
+    border: none;
+    display: flex;
+    width: 163px;
+    height: 73px;
+    padding: 16px 40px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.newsletter_right {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.newsletter_right_bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
 }
