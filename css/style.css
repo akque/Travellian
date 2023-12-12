@@ -42,7 +42,10 @@
     line-height: normal;
 }
 .nav_link:hover {
-    font-weight: 600;
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+.nav_link:not(:hover) {
     transition: 0.1s;
 }
 .nav_sign {
@@ -120,6 +123,7 @@
     line-height: normal;
     border: none;
     border-bottom: 1px solid black;
+    
 }
 .main_form_btn {
     border-radius: 0px 20px 20px 0px;
@@ -702,6 +706,10 @@
     line-height: normal;
     margin-bottom: 12px;
 }
+.footer_link:hover {
+    transform: scale(1.05);
+    transition: 0.1s;
+}
 .footer_cont {
     display: flex;
     flex-direction: column;
@@ -793,6 +801,15 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+.footer_newsletter_btn:hover {
+    background-color: #FFE8D4;
+    color: #FF7757;
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+.footer_newsletter_btn:not(:hover) {
+    transition: 0.2s;
 }
 .newsletter_right {
     display: flex;
