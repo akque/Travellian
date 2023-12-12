@@ -427,26 +427,65 @@
 }
 .planner {
     display: flex;
+    gap: 100px;
+    margin-bottom: 282px;
 }
 .planer_left {
     display: flex;
+    flex-direction: column;
 }
 .planner_title {
+    color: #172432;
+    font-family: Playfair Display;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
 }
 .planner_hr {
+    width: 231px;
+    height: 3px;
+    background-color: #FF7757;
+    display: flex;
+    border: none;
+    margin-bottom: 32px;   
 }
 .planner_subtitle {
+    color: #767E86;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 394px;
+    margin-bottom: 35px;
 }
 .planner_link {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-image: url(../img/btn.png);
+    background-repeat: no-repeat;
+    width: 218px;
+    height: 91.5px;
+    text-align: center;
+    padding-top: 34.5px;
+    margin-left: 26px;
 }
 .planner_right {
     display: flex;
+    gap: 32px;
 }
 .planner_img {
     min-width: 300px;
     border-radius: 26px;
     height: 399px;
     background-repeat: no-repeat;
+    
 }
 .planner_rome {
     background-image: url(../img/rome_planner.png);
