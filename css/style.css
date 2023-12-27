@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
-    overflow-x: hidden;
 }
 .header {
     display: flex;
@@ -149,6 +148,7 @@ body {
     background-repeat: no-repeat;
     background-position: right;
     background-position-x: 129px;
+    cursor: pointer;
 }
 .wrapper_left_padding {
     padding-left: 182px;
@@ -156,6 +156,7 @@ body {
 .popular_dest {
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 .dest_title {
     color: #172432;
@@ -187,7 +188,7 @@ body {
     display: flex;
     flex-direction: row;
     gap: 32px;
-    overflow-x: scroll;
+    overflow-x: hidden;
     margin-bottom: 140px;
 }
 .list_title {
@@ -832,4 +833,33 @@ body {
     display: flex;
     flex-direction: row;
     gap: 32px;
+}
+.dest_slider_controller {
+    display: flex;
+    gap: 40px;
+    position: absolute;
+    right: 182px;
+    top: 105px;
+}
+.slider_btn {
+    display: block;
+    border-radius: 12px;
+    border: none;
+    background-repeat: no-repeat;
+    width: 66px;
+    height: 66px;
+    background-position: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn_left {
+    background-color: #172432;
+    background-image: url(../img/vectorleft.png);
+}
+.btn_right {
+    background-color: #FF7757;
+    background-image: url(../img/vectorright.png);
+}
+.slider_btn:hover {
+    transform: scale(1.1);
 }
