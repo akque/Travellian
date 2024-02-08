@@ -841,6 +841,12 @@ body {
     right: 182px;
     top: 105px;
 }
+.offer_slider_controller {
+    display: flex;
+    gap: 40px;
+    position: absolute;
+    top: 2529px;
+}
 .slider_btn {
     display: block;
     border-radius: 12px;
