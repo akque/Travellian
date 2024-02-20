@@ -63,7 +63,7 @@
                     <label class="form_label">Check out</label>
                     <input type="date" name="checkout" class="form_input">
                 </div>
-                <button class="main_form_btn">Book Now</button>  
+                <button class="main_form_btn">Book<br/> Now<br/></button>  
             </form>
         </main>
     </div>    
@@ -264,13 +264,17 @@
             <p class="footer_newsletter_title">Our Newsletter</p>
             <div class="newsletter_right">
                 <label class="footer_newsletter_label">Email</label>
-                <div class="newsletter_right_bottom">
-                    <input type="text" name="footer_input" placeholder="Enter your email" class="footer_newsletter_input">
-                    <button class="footer_newsletter_btn">Subscribe</button>
-                </div>
+                <form class="footer_form">
+                    <div class="newsletter_right_bottom">
+                        <input type="text" name="footer_input" placeholder="Enter your email" required class="footer_newsletter_input">
+                        <button class="footer_newsletter_btn">Subscribe</button>
+                    </div>
+                </form>
             </div>
         </div>
     </footer>
-    <script src="./script/script.js"></script>
+    <script type="module" src="./script/constants.js"></script>
+    <script type="module" src="./script/script.js"></script>
+
 </body>
 </html>
