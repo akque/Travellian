@@ -920,7 +920,19 @@ body {
 .slider_btn:hover {
     transform: scale(1.1);
 }
-.preloader {
+.container__preloader{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(39, 39, 39);
+    z-index: 9999999;
+}
+#preloader {
     width: 48px;
     height: 48px;
     border: 5px solid #FFF;
@@ -929,20 +941,13 @@ body {
     display: inline-block;
     box-sizing: border-box;
     animation: rotation 1s linear infinite;
-}
-.spinner {
-    width: 50px;
-    height: 50px;
-    border: 5px solid #cccccc;
-    border-top-color: #1a1a1a;
-    border-radius: 50%;
-    animation: spin 1s linear infinite;
-}
-  @keyframes spin {
+
+    }
+@keyframes rotation {
     0% {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
     100% {
-      transform: rotate(360deg);
+        transform: rotate(360deg);
     }
- }
+    } 

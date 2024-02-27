@@ -1,0 +1,38 @@
+@media (max-width: 1440px) {
+    .wrapper1920 {
+        width: 1440px;
+    }
+    .wrapper_left_padding {
+        padding-left: 0px;
+        width: 1440px;
+    }
+    .wrapper1616 {
+        padding-left: 0px;
+        padding-right: 0px;
+        min-width: 1440px;
+    }
+    .header {
+        width: 1440px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .main {
+        padding: 270px 182px 656px 182px;
+    }
+    .main_form {
+        width: 1205px;
+        padding-left: 32px;
+    }
+    .main_form_cont {
+        width: 196px;
+    }
+    .footer_newsletter_btn:hover {
+        background-color: #FFE8D4;
+        color: #FF7757;
+        transform: scale(1.1);
+        transition: 0.4s;
+    }
+    .footer_newsletter_btn:not(:hover) {
+        transition: 0.2s;
+    }
+}

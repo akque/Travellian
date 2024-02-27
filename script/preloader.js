@@ -1,5 +1,7 @@
-import { preloader } from "./constants";
+const preload = document.getElementById("preloader")
 
-export function preloader (preloader) {
-    preloader.style.display = "none"
+function preLoader () {
+    preload.style.display = 'none'
 }
+
+window.addEventListener("load", preLoader)
