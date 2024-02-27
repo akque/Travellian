@@ -26,13 +26,5 @@
     .main_form_cont {
         width: 196px;
     }
-    .footer_newsletter_btn:hover {
-        background-color: #FFE8D4;
-        color: #FF7757;
-        transform: scale(1.1);
-        transition: 0.4s;
-    }
-    .footer_newsletter_btn:not(:hover) {
-        transition: 0.2s;
-    }
+    
 }
