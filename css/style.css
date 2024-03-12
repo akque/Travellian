@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-body {
-}
 .header {
     display: flex;
     align-items: center;
@@ -10,8 +8,9 @@ body {
     left: 0;
     right: 0;
     top: 32px;
-    width: 1556px;
+    min-width: 1900px;
     margin: auto;
+    padding: 0 182px;
 }
 .header_logo {
     background-image: url(../img/logo.svg);
@@ -64,13 +63,18 @@ body {
     padding: 20px 32px;
 }
 .wrapper1920 {
-    width: 1920px;    
+    margin: auto;
+    min-width: 1900px;    
     position: relative;
 }
 .main {
     padding: 270px 182px 656px 182px;
+    /* height: 80vw; */
+    min-height: 1194px;
     background-image: url(../img/1920bg.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 140px;
 }
 .main_title {
     color: #FFF;
@@ -199,7 +203,8 @@ body {
 }
 .wrapper_left_padding {
     padding-left: 182px;
-    width: 1738px;
+    width: 1900px;
+    margin: auto;
 }
 .popular_dest {
     display: flex;
@@ -287,7 +292,8 @@ body {
 .wrapper1616 {
     padding-left: 182px;
     padding-right: 182px;
-    min-width: 1616px;
+    width: 1900px;
+    margin: auto;
 }
 .spec_offer {
     display: flexo;
@@ -503,12 +509,14 @@ body {
 }
 .planner {
     display: flex;
-    gap: 100px;
     margin-bottom: 282px;
+    justify-content: space-between;
+    align-items: end;
 }
 .planer_left {
     display: flex;
     flex-direction: column;
+    width: 394px;
 }
 .planner_title {
     color: #172432;
@@ -534,7 +542,6 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 394px;
     margin-bottom: 35px;
 }
 .planner_link {
@@ -555,6 +562,10 @@ body {
 .planner_right {
     display: flex;
     gap: 32px;
+    width: 1224px;
+    overflow: hidden;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 .planner_img {
     min-width: 300px;
@@ -564,9 +575,6 @@ body {
 }
 .planner_rome {
     background-image: url(../img/rome_planner.png);
-}
-.planner_paris {
-    background-image: url(../img/paris_planner.png);
 }
 .planner_madrid {
     background-image: url(../img/madrid_planner.png);
@@ -612,7 +620,7 @@ body {
 }
 .gallery_list_img {
     display: flex;
-    height: 570px;
+    height: 570px;  
     width: 365px;
     border-radius: 26px;
 }
@@ -622,7 +630,20 @@ body {
 .gallery_second {
     background-image: url(../img/gallery2.png);
     position: relative;
-    bottom: 37.5px;
+    bottom: 27.5px;
+}
+.gallery_list_cont {
+
+}
+.gallery_list_cont_title {
+    color: #000000;
+    font-family: Rubik;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 35 px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: underline;
 }
 .gallery_third {
     background-image: url(../img/gallery3.png);
@@ -665,8 +686,8 @@ body {
     flex-direction: row;
     gap: 32px;
     margin-bottom: 455px;
-    /* overflow: hidden; */
-    padding-top: 70px;
+    overflow: hidden;
+    padding-top: 70px; 
 }
 .experience_list_card {
     display: flex;
@@ -713,6 +734,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    
 }
 .avatar_first {
     background-image: url(../img/avatar1.png);
@@ -731,6 +753,7 @@ body {
     padding: 240px 182px 140px 182px;
     background-color: #172432;
     position: relative;
+    width: 1900px;
 }
 .footer_logo_cont {
     display: flex;
@@ -889,14 +912,14 @@ body {
     display: flex;
     gap: 40px;
     position: absolute;
-    right: 0px;
+    right: 182px;
     top: 105px;
 }
 .offer_slider_controller {
     display: flex;
     gap: 40px;
     position: absolute;
-    top: 2529px;
+    top: 2701px;
 }
 .slider_btn {
     display: block;
@@ -937,7 +960,7 @@ body {
     width: 108px;
     display: flex;
     justify-content: space-between;
-  }
+}
 #preloader::after , #preloader::before  {
     content: '';
     display: inline-block;
@@ -948,17 +971,81 @@ body {
     background-repeat: no-repeat;
     border-radius: 50%;
     animation: eyeMove 10s infinite , blink 10s infinite;
-  }
+}
 @keyframes eyeMove {
     0%  , 10% {     background-position: 0px 0px}
     13%  , 40% {     background-position: -15px 0px}
     43%  , 70% {     background-position: 15px 0px}
     73%  , 90% {     background-position: 0px 15px}
     93%  , 100% {     background-position: 0px 0px}
-  }
+}
 @keyframes blink {
     0%  , 10% , 12% , 20%, 22%, 40%, 42% , 60%, 62%,  70%, 72% , 90%, 92%, 98% , 100%
     { height: 48px}
     11% , 21% ,41% , 61% , 71% , 91% , 99%
     { height: 18px}
-  }
+}
+.planner__desc {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    transition: 0.5s;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.planner_paris_desc_top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+.planner_paris_desc_subtitle {
+    color: rgb(23, 36, 50);
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+.planner_paris_desc_title {
+    color: rgb(23, 36, 50);
+    font-family: Playfair Display;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 14px;
+}
+.planner_paris_desc_bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.planner_paris_desc_rating {
+
+}
+.planer__cont {
+    position: relative;
+    height: auto;
+    
+}
+.planner_img{
+    transition: 0.5s;
+}
+
+.planer__cont:hover .planner_img{
+    transform: translateY(-70px);
+}
+
+.planer__cont:hover .planner__desc{
+    transform: translateY(70px);
+}
+
+.planner_paris {
+    position: relative;
+    z-index: 3;
+    background-image: url(../img/paris_planner.png);
+}

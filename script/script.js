@@ -8,3 +8,6 @@ sliderButtonRight.addEventListener("click", () => scrollSlide(true, 32, sliderCo
 sliderButtonLeft.addEventListener("click", () => scrollSlide(false, 32, sliderContainer, 'destCount'))
 form.addEventListener("submit", formSubmit)
 formEmail.addEventListener("submit", formEmailSubmit)
+window.addEventListener("scroll", (e) => {
+    console.log(e.target);
+})
