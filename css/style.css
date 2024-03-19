@@ -1036,13 +1036,13 @@
     transition: 0.5s;
 }
 
-.planer__cont:hover .planner_img{
-    transform: translateY(-70px);
-}
+    .planer__cont:hover .planner_img{
+        transform: translateY(-70px);
+    }
 
-.planer__cont:hover .planner__desc{
-    transform: translateY(70px);
-}
+    .planer__cont:hover .planner__desc{
+        transform: translateY(70px);
+    }
 
 .planner_paris {
     position: relative;

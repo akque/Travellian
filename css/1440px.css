@@ -1,23 +1,27 @@
 @media (max-width: 1440px) {
     .wrapper1920 {
         width: 1440px;
+        min-width: 0;
     }
     .wrapper_left_padding {
-        padding-left: 0px;
+        padding-left: 32px;
         width: 1440px;
     }
     .wrapper1616 {
         padding-left: 0px;
         padding-right: 0px;
-        min-width: 1440px;
+        min-width: 0px;
+        width: 1440px;
     }
     .header {
+        min-width: 0;
         width: 1440px;
-        padding-left: 32px;
-        padding-right: 32px;
+        padding: 0 32px;
+        margin: 0;
     }
     .main {
         padding: 270px 182px 656px 182px;
+        width: 1440px;
     }
     .main_form {
         width: 1205px;
@@ -26,5 +30,56 @@
     .main_form_cont {
         width: 196px;
     }
-    
+    .dest_slider_controller {
+        right: 32px;
+    }
+    .spec_offer {
+        padding: 0 32px;
+    }
+    .offer_slider_controller {
+        left: 32px;
+    }
+    .list_card {
+        min-width: 0;
+        width: 437px;
+        height: 594px;
+    }
+    .blog {
+        padding: 0 32px;
+    }
+    .planner {
+        align-items: center;
+    }
+    .planner_right {
+        width: 902px;
+    }
+    .planner_paris {
+        transform: translateY(-70px);
+    }
+    .planer__cont {
+        pointer-events: none;
+    }
+    .planner__desc:nth-child(2) {
+        transform: translateY(70px);
+    }
+    .gallery {
+        padding: 0 32px;
+    }
+    .gallery_list {
+        max-height: 543px;
+    }
+    .gallery_list_img {
+        width: 320px;
+    }
+    .experience_list_card {
+        width: 562px;
+        height: 336px;
+    }
+    .experience_list_card_title {
+        width: 482px;
+    }
+    .footer {
+        width: 1440px;
+        padding: 240px 32px 140px;
+    }
 }
