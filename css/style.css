@@ -26,6 +26,9 @@
     gap: 36px;
     align-items: center;
 }
+.header_burger {
+    display: none;
+}
 .nav_link {
     color: #FFF;
     font-family: Rubik;

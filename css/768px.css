@@ -1,0 +1,149 @@
+@media (max-width: 768px) {
+    .wrapper1920 {
+        width: 768px;
+    }
+    .wrapper_left_padding {
+        padding-left: 20px;
+        width: 768px;
+    }
+    .wrapper1616 {
+        width: 768px;
+    }
+    .header {
+        width: 768px;
+    }
+    .header_nav {
+        display: none;
+    }
+    .header_option {
+        display: none;
+    }
+    .header_burger {
+        display: block;
+        background-image: url(../img/burger.svg);
+        width: 38px;
+        height: 23px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .main {
+        padding-left: 20px;
+        padding-top: 214px;
+        width: 768px;
+    }
+    .main_form{
+        width: 679px;
+        flex-wrap: wrap;
+        gap: 43px 40px;
+    }
+    .main_title {
+        width: 728px;
+        font-size: 54px;
+        font-weight: 400;
+        line-height: 72px;
+        letter-spacing: 0%;
+    }
+    .main_subtitle {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0%;
+        width: 728px;
+    }
+    .footer {
+        width: 768px;
+        flex-direction: column;
+        gap: 60px;
+        margin-top: 400px;
+        padding: 100px 32px 140px 32px;
+    }
+    .footer_newsletter{
+        flex-direction: column;
+        width: 732px;
+        height: 324px;
+        gap: 60px;
+        padding: 40px;
+        top: -324px;
+    }
+    .popular_dest {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .dest_slider_controller {
+        right: 0;
+        left: 0;
+        bottom: 0px;
+        top: auto;
+        margin: auto;
+        width: 172px;
+    }
+    .list_bg {
+        min-width: 100%;
+        width: 728px;
+        height: 456px;
+    }
+    .berlin {
+        background-image: url(../img/Berlin2.png);
+    }
+    .london {
+        background-image: url(../img/London2.png);
+    }
+    .venice {
+        display: none;
+    }
+    .lisbon {
+        display: none;
+    }
+    .spec_offer {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .offer_title {
+    }
+    .offer_hr {
+    }
+    .offer_subtitle {
+    }
+    .offer_slider_controller {
+        right: 0;
+        left: 0;
+        bottom: 0px;
+        top: auto;
+        margin: auto;
+        width: 172px;
+    }
+    .slider_btn {
+    }
+    .btn_left {
+    }
+    .btn_right {
+    }
+    .offer_list {
+    }
+    .list_card {
+        width: 728px;
+        min-width: 100%;
+    }
+    .lisbon_special {
+    }
+    .card_title {
+    }
+    .card_rating {
+    }
+    .card_description {
+    }
+    .card_price {
+    }
+    .price_cont {
+    }
+    .price_title {
+    }
+    .orange {
+    }
+    .price_btn {
+    }
+    .athens_special {
+    }
+    .rome_special {
+    }
+}
